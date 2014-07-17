@@ -1,0 +1,9 @@
+iframe {
+  width: 100%; height: 1000px;
+  border: 0; margin: 0; padding: 0;
+}
+
+.scrollable {
+  width: 1008px; height: 280px;
+  overflow: auto;
+}
