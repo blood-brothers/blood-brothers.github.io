@@ -1,3 +1,3 @@
 $( document ).ready(function() {
-  $(".scrollable").scrollTop(410);
+  $(".scrollable").scrollTop(490);
 });
