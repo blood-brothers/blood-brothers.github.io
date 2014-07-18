@@ -8,11 +8,13 @@ $( document ).ready(function() {
   $("#back").click(function() {
     decrementWeek();
     updateSources();
+    return false;
   });
 
   $("#next").click(function() {
     incrementWeek();
     updateSources();
+    return false;
   });
 });
 
