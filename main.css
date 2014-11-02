@@ -48,7 +48,7 @@ iframe {
 
 .scrollable {
   width: 1008px; height: 380px;
-  overflow: auto;
+  overflow: hidden;
   margin: 0 auto;
 }
 
