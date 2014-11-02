@@ -3,7 +3,7 @@ var mondayCurrentlyDisplayed = new Date;
 $( document ).ready(function() {
   init();
 
-  $(".scrollable").scrollTop(470);
+  $(".scrollable").scrollTop(330);
 
   $("#back").click(function() {
     decrementWeek();
@@ -35,7 +35,6 @@ function decrementWeek(){
 function updateSources(){
   $("#jason").attr("src", getSrc(5117024));
   $("#andy" ).attr("src", getSrc(5116706));
-  $("#mark" ).attr("src", getSrc(5135253));
 }
 
 function getSrc(userId){
